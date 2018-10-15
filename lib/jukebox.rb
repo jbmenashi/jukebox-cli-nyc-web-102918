@@ -21,7 +21,8 @@ end
 
 def list(songs)
   songs.each_with_index do |song, number|
-    puts "#{number "
+    puts "#{number + 1}. #{song}"
+end
 
 def play(songs)
   puts "Please enter a song name or number"
