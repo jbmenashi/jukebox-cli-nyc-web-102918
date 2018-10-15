@@ -53,7 +53,7 @@ def run(songs)
     play
   break if answer == "exit"
   end
-    exit_jukebox
+  exit_jukebox
 end
     
     
