@@ -51,8 +51,6 @@ def run
     list
   elsif answer == "play"
     play
-  break if answer == "exit"
-  exit_jukebox
   end
 end
     
