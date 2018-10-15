@@ -43,7 +43,7 @@ end
 
 def run(songs) 
   help
-  puts "Please enter a command"
+  puts "Please enter a command:"
   answer = gets.chomp
   if answer == "help"
     help
