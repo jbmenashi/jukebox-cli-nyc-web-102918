@@ -38,6 +38,7 @@ def play(songs)
     if song_name_or_number == song
       puts "Playing #{song}"
     elsif song_name_or_number == idx
+      puts "Playing #{song}"
     else
       puts "Invalid input, please try again"
     end
