@@ -32,5 +32,7 @@ def list(songs)
 end
 
 def play(songs)
+  songs.each do |song|
+    
   puts "Please enter a song name or number"
   
