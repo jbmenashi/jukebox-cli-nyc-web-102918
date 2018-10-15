@@ -53,6 +53,7 @@ def run
     play
   break if answer = "exit"
   exit_jukebox
+  end
 end
     
     
