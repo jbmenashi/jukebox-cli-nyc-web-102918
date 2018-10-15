@@ -37,6 +37,7 @@ def play(songs)
   songs.each do |song, idx|
     if song_name_or_number == song
       puts "Playing #{song}"
+    elsif song_name_or_number == idx
     else
       puts "Invalid input, please try again"
     end
