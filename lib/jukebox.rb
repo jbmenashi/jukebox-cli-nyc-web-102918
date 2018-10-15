@@ -18,3 +18,5 @@ def help
   - exit : exits this program"
 
 end
+
+help
