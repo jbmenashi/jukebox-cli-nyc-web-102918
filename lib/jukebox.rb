@@ -19,4 +19,3 @@ def help
 
 end
 
-help
