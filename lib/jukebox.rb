@@ -45,13 +45,13 @@ def run
   help
   puts "Please enter a command"
   answer = gets.chomp
-  if answer = "help"
+  if answer == "help"
     help
-  elsif answer = "list"
+  elsif answer == "list"
     list
-  elsif answer = "play"
+  elsif answer == "play"
     play
-  break if answer = "exit"
+  break if answer == "exit"
   exit_jukebox
   end
 end
