@@ -32,7 +32,7 @@ def list(songs)
 end
 
 def play(songs)
-  songs.each do |song|
-    
   puts "Please enter a song name or number"
+  song_name_or_number = gets.chomp
+  
   
